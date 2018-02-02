@@ -166,6 +166,5 @@ public class SlidingContainerViewController: UIViewController, UIScrollViewDeleg
   public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
     let index = scrollView.contentOffset.x / contentScrollView.frame.size.width
     setCurrentViewControllerAtIndex(Int(index))
-    //test
   }
 }
